@@ -1,0 +1,17 @@
+TASK-1 
+
+
+
+def fib(n):
+
+    A = 0
+    B = 1
+    print(A)
+    print(B)
+
+    for i in range(2,n):
+            C = A+B
+            A = B
+            B = C
+            print(C)
+fib(20)
